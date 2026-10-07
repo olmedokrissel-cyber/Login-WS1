@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif !important;
+}
+
+body {
+    background: url('./BG.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+}
+.container, .login-box, .register-box {
+    background: #79249b !important;
+    text-align: left;
+    width: 100%;
+    max-width: 480px; 
+    padding: 30px 40px !important;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.header-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-text h1, 
+.header-text h2, 
+h1, h2 {
+    color: #ffffff !important; 
+    font-size: 1.8rem !important;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.header-text p {
+    color: #f0f0f0 !important;
+    font-size: 0.9rem;
+}
+
+.input-box {
+    margin-bottom: 12px; 
+}
+
+.input-box label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #fffcfc !important;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box select,
+select, input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 6px;
+    outline: none;
+    font-size: 0.9rem;
+    background-color: #ffffff !important;
+}
+
+button,
+button[type="submit"],
+.btn {
+    width: 100% !important;
+    padding: 12px !important;
+    background-color: #534ee9 !important; 
+    color: #f5f6f6 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover,
+button[type="submit"]:hover {
+    background-color: #1d19f2 !important; 
+}
+
+.links, .footer-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.links a, .footer-text a {
+    color: #16d7cd !important;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.links a:hover, .footer-text a:hover {
+    text-decoration: underline;
+}

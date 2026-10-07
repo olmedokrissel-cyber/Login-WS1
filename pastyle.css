@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+
+    background: url('./backG.jpg') no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-box {
+    background: #79249b;
+    text-align: left;
+    width: 380px;
+    padding: 35px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.header-text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header-text h1 {
+    color: #030202;
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+}
+
+.header-text p {
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #fff9f9;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #df27b1;
+    color: #101010;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ae1480;
+}
+
+.links {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 0.85rem;
+}
+
+.links a {
+    color: #fefffe;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
